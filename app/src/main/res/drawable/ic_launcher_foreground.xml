@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Landscape screen with a play button and a rotation arrow. Content stays inside the 66dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Screen (the play triangle is cut out with evenOdd) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M34,46h40a5,5 0,0 1,5 5v18a5,5 0,0 1,-5 5h-40a5,5 0,0 1,-5 -5v-18a5,5 0,0 1,5 -5zM49,53L49,67L61,60Z" />
+    <!-- Rotation arrow -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M36,40A24,24 0,0 1,68 34" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M65,27L77,35L65,41Z" />
+</vector>

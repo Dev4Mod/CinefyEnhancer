@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Cinefy Enhancer</string>
+    <string name="xposed_description">Improves the Cinefy video player: automatically rotates to landscape and keeps the screen on while a video is in fullscreen.</string>
+</resources>
